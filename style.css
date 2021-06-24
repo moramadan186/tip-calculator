@@ -2,11 +2,12 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 body{
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(150, 0, 0) 50%)
+
+    font-family:cursive
 }
 
 .container{
@@ -42,7 +43,6 @@ body{
 }
 .container form input{
     padding:7px;
-    box-shadow: .1px .1px 2px  black inset;
     
 }
 .container form .selectContainer{width:250px;margin:0 auto ;}
@@ -58,7 +58,7 @@ body{
 .container form button{
     display:block;
     padding:10px;
-    width:130px;
+    width:160px;
     margin:30px auto;
     font-weight: bold;
     font-size: 20px;
