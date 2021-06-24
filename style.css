@@ -4,14 +4,8 @@
     box-sizing: border-box;
     
 }
-
-body{
-
-    font-family:cursive
-}
-
+body{font-family:cursive}
 .container{
-    background-color: white;
     width:450px;
     height:500px;
     border-radius:10px;
@@ -19,43 +13,25 @@ body{
     margin:14vh auto;
 }
 .container header{
-    background-color: rgb(63, 16, 16);
+    background-color: rgb(196,50,50);
     color:white;
     padding :7px 0;
     text-align: center;
     border-radius:8px 8px 0 0;
 }
-.container header h2{
-    
-}
 .container form {
     font-size:18px;
     color:rgb(66, 66, 66);
     font-weight: 550;
-    margin-left: 15px;
+    margin: 0 15px;
 }
-.container form label {
-    padding:10px 0px 10px 0px;
-    display:block;
-}
-.container form label:nth-of-type(2){
-    display: inline;
-}
-.container form input{
-    padding:7px;
-    
-}
+.container form label {padding:10px 0px 10px 0px;display:block;}
+.container form label:nth-of-type(2){display: inline;}
+.container form input{ padding:7px;}
 .container form input:nth-of-type(2){margin-left: 20px;}
 .container form .selectContainer{width:250px;margin-left: 20px;}
-.container form .selectContainer select{
-    padding :10px;
-    text-align: center;
-    width: 175px;
-}
-.container form .selectContainer select option{
-    padding:30px;
-
-}
+.container form .selectContainer select{padding :10px;text-align: center; width: 175px;}
+.container form .selectContainer select option{padding:30px;}
 .container form button{
     display:block;
     padding:10px;
@@ -63,6 +39,13 @@ body{
     margin:30px auto;
     font-weight: bold;
     font-size: 20px;
-    background-color:rgb(255, 155, 6);
-    
+    background-color: rgb(196,50,50);
+    color:white;
+    border: none;
+    transition: background 0.3s linear;
+}
+.container form button:hover{background-color: rgb(219, 0, 0);}
+#result{margin-left: 20px;}
+@media (max-width:490px) {
+    .container{ width:80%;} 
 }
