@@ -45,11 +45,12 @@ body{
     padding:7px;
     
 }
-.container form .selectContainer{width:250px;margin:0 auto ;}
+.container form input:nth-of-type(2){margin-left: 20px;}
+.container form .selectContainer{width:250px;margin-left: 20px;}
 .container form .selectContainer select{
-    border-radius: 10px;
     padding :10px;
     text-align: center;
+    width: 175px;
 }
 .container form .selectContainer select option{
     padding:30px;
